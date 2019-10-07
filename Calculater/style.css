@@ -1,0 +1,40 @@
+body{
+	background-color: #FAFAFA;
+}
+p{
+	margin:  120px  auto  2px;
+    width: 420px;
+	height: 60px;
+	background-color: #ffb366; 
+	font-size: 40px;
+	border: 1px solid #000;	
+	text-align: center;
+} 
+div{
+	margin:  auto;
+	padding: 10px;
+	background-color: #f5f5f5;
+}
+.main {
+	width: 400px;
+	height: 300px;
+	background-color: #000;  
+}
+input {
+	width: 20%;
+	height: 40px;
+	font-size: 20px;
+	margin: 6px;
+	border-radius: 100%;
+	background-color: #CCC;
+}
+.color {
+	background-color: #f5f5f5;
+
+}
+ .field {
+	width: 90%;
+	height: 50px;
+	background-color: #fff;
+	border-radius: 0;
+}

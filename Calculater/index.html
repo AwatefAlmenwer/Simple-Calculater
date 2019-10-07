@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online calculator</title>
+	<!-- CSS file-->
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<p>Simple Calculater</p>
+	<!-- Start of Div-->
+	<div class="main">
+
+		<!-- Start of from-->
+		<form name="form">
+			<input type="text" name="textbox" placeholder="0" class="field" > <br>
+			<input type="button" value="1" onclick= "form.textbox.value += 1">
+			<input type="button" value="2" onclick= "form.textbox.value += 2">
+			<input type="button" value="3" onclick= "form.textbox.value += 3">
+			<input type="button" value="+" onclick= "add()" > 
+			<br>
+			<input type="button" value="4" onclick= "form.textbox.value += 4">
+			<input type="button" value="5" onclick= "form.textbox.value += 5">
+			<input type="button" value="6" onclick= "form.textbox.value += 6">
+			<input type="button" value="-" onclick= "sub()" > 
+			<br>
+			<input type="button" value="7" onclick= "form.textbox.value += 7">
+			<input type="button" value="8" onclick= "form.textbox.value += 8">
+			<input type="button" value="9" onclick= "form.textbox.value += 9">
+			<input type="button" value="/" onclick= "divid()"> 
+			<br>
+			<input type="button" value="c" onclick= "form.textbox.value = ''">
+			<input type="button" value="0" onclick= "form.textbox.value += 0">
+			<input type="button" value="=" onclick= "form.textbox.value = eval(form.textbox.value)" >
+			<input type="button" value="x" onclick= "multip()"> 
+			<br>
+		</form>	
+		<!-- End of from-->	
+	</div>
+	<!-- End of Div-->
+	<!--JavaScript file  -->
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
